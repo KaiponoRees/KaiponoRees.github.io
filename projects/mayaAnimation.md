@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/mayaanimation.png
+image: img/mayaanimation2.png
 title: "ICS-369 Final Maya Animation Project"
 date: 2026-05-05
 published: true
