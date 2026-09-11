@@ -7,6 +7,8 @@ date: 2026-09-10
 published: true
 labels:
   - Engineering
+  - TypeScript
+  - Software Engineering
 ---
 
 <img width="500px" class="rounded float-start pe-4" src="../img/typeScriptpic.png" alt="TypeScript assignment">
