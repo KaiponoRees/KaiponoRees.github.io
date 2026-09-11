@@ -11,7 +11,7 @@ labels:
   - StackOverflow
 ---
 
-<img width="500px" class="rounded float-start pe-4" src="../img/smart-questions/rtfm.png">
+<img width="500px" class="rounded float-start pe-4" src="../img/badQuestion.png">
 
 ## Questions That Will Get Answers
 
@@ -19,39 +19,15 @@ When learning how to program or during programming, getting stuck on a problem i
 
 ## What Makes a Question Smart?
 
-[StackOverflow](https://stackoverflow.com/) is a useful resource for programmers because developers can ask questions and receive help from other people in the programming community. However, the people answering these questions are not obligated to help. Because of this, Eric Raymond explains that we should respect their time by researching the problem first and clearly explaining what we need help with.
+[StackOverflow](https://stackoverflow.com/questions) is a useful resource for programmers because developers can ask questions and receive help from other people in the programming community. However, the people answering these questions are not obligated to help. Because of this, Eric Raymond explains that we should respect their time by researching the problem first and clearly explaining what we need help with.
 
 A good question should explain what you are trying to accomplish, provide the relevant code, show the error or unexpected result, and explain what you have already tried. It should also be specific enough that someone does not have to guess what the problem is. One Stack Overflow question I found demonstrates these ideas well.
 
-```
-Q: python date of the previous month
+## A Question Asked the Smart Way
 
-I am trying to get the date of the previous month with python. Here is what i've tried:
+The question I chose was [Why does typing the return value of my function make the return value typed unknown?](https://stackoverflow.com/questions/79976653/why-does-typing-the-return-value-of-my-function-make-the-return-value-typed-unkn) The developer was working with TypeScript and had an asynchronous function that was supposed to return a Promise<TeamType[]>. However, the function called another function named httpRequest, and TypeScript treated the value returned from that function as unknown. This caused an error because an unknown value could not automatically be returned as a TeamType[].
 
-str( time.strftime('%Y') ) + str( int(time.strftime('%m'))-1 )
-
-However, this way is bad for 2 reasons: First it returns 20122 for the February of 2012 (instead of 201202) 
-and secondly it will return 0 instead of 12 on January.
-
-I have solved this trouble in bash with:
-
-echo $(date -d"3 month ago" "+%G%m%d")
-
-I think that if bash has a built-in way for this purpose, then python, much more equipped, should provide something 
-better than forcing writing one's own script to achieve this goal. Of course i could do something like:
-
-if int(time.strftime('%m')) == 1:
-    return '12'
-else:
-    if int(time.strftime('%m')) < 10:
-        return '0'+str(time.strftime('%m')-1)
-    else:
-        return str(time.strftime('%m') -1)
-        
-I have not tested this code and i don't want to use it anyway (unless I can't find any other way:/)
-
-Thanks for your help!
-```
+Question that was asked:
 
 While the heading of his question could be better, it does convey what he’s trying to figure out. Usually something as brief as “python date of previous month” is what other users would enter in as search terms on Google, making it easily found. Another good thing about the question is that it’s not just a question. The asker shows what he or she has done and that he or she has put in some effort to answer the question. And while it may not be as important as the question itself, the asker shows courtesy, which does increase the chance of getting an answer.
 
