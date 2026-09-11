@@ -68,4 +68,4 @@ In conclusion, my biggest takeaway from this module was that getting comfortable
 
 ## AI Use
 
-Used Grammarly to check over my spelling, format, and grammar to ensure I write a cohesive a easy to read essay. 
+Used Grammarly to check over my spelling, format, and grammar to ensure I write a cohesive and easy to read essay. 
