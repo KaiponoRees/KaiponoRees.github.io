@@ -2,13 +2,13 @@
 layout: project
 type: project
 image: img/micromouse/micromouse-square.jpg
-title: "Micromouse"
-date: 2015
+title: "ICS481 lisp Project"
+date: 2026/09/04
 published: true
 labels:
-  - Robotics
-  - Arduino
-  - C++
+  - sbcl
+  - Aquamacs
+  - lisp
 summary: "My team developed a robotic mouse that won first place in the 2015 UH Micromouse competition."
 ---
 
