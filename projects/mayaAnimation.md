@@ -11,7 +11,7 @@ labels:
 summary: "My final ICS-369 project with Maya using an animated cauldron with fire, smoke, bubbles, changing liquid colors, and an explosive finale."
 ---
 <video width="700" controls>
-  <source src="../videos/maya-animation.mp4" type="video/mp4">
+  <source src="../videos/mayaAnimation.mp4" type="video/mp4">
   Your browser does not support the video.
 </video>
 
