@@ -1,9 +1,9 @@
 ---
 layout: essay
 type: essay
-title: "The difficult things will always be difficult"
+title: "Reflection on Typescript"
 # All dates must be YYYY-MM-DD format!
-date: 2016-02-06
+date: 2026-09-10
 published: true
 labels:
   - Engineering
@@ -11,44 +11,56 @@ labels:
 
 <img width="200px" class="rounded float-start pe-4" src="../img/difficulty/degree_difficulty.jpg">
 
-*Difficulty: a thing that is hard to accomplish, deal with, or understand.*
+*Getting comfortable with TypeScript*
 
-One of my friends asked the question earlier last week -- why is it so hard to be an officer for the student branch? Why is so hard compared to working at my on-campus job? This question came after he struggled a little with bookkeeping for the student organization.
+First, we have to define what comfort is, which is a state where something begins to feel easier and more natural over time.
 
-Now I gave him the standard answer - being an officer of an organization requires that you manage your time between school and work. There isn't anyone telling you what to do. It's the answer any good mentor would give, and is mostly true.
+When I first started this class and module, TypeScript felt pretty comfortable to me because of how similar it is to JavaScript. I already had experience working with JavaScript, so a lot of the different sentence structures and ideas were sort of familiar. But at the same time, this familiarity was also one of my biggest challenges. When you get comfortable writing your code a certain way, switching to something slightly different made it harder than I expected when I first started doing assignments. I would sometimes fall back into the coding habits I had with JavaScript instead of the different coding way that TypeScript needed me to do to work.
 
-But the more I though about it, the more I wondered to myself...damn that's a really great question; it's one that deserves some more thought. Most people I think stop at the answer I gave previously - he obviously isn't managing his time properly.
+As I continued through the module, TypeScript started to make a lot more sense. The differences that made it annoying or confusing at first started to become easier for me to start getting into the flow of how I coded with JavaScript.
 
-Here's what I think: the difficult things will always be difficult.
+## Getting Used to TypeScript
 
-## In the context of programming
+The biggest difference I noticed with TypeScript was having to think more about the type of data I was going to be working with. In JavaScript, I could just create a variable and not have to worry too much about what type it was. But TypeScript makes me have to think twice and be more specific when putting a type on different variables. For example, throughout the Jamba Juice assignments, I created properties such as:
 
-In the context of programming, this has always been true. The difficult problems have always been different, although changes in technology can change the landscape quite a bit. "Business" type applications are the things that come to mind for me. Those types of applications are usually coupled in some way with people ... and people are awfully hard to deal with!
+name: string;
+ingredients: string[];
+price: number;
 
-Consider that one of the most popular content management systems is also considered the most horrible - Wordpress. But really, is there anything that fills that need? If it was so easy in the first place, where is the solution? Where's the magic CMS that is designed well enough that everyone hops on the boat to use it?
+At first, making sure to specify these types felt like another extra step that I had to remember when using different types. However, once I got more comfortable with it, I started to see the benefit of having types because they helped me catch mistakes earlier and made my code easier to understand and organize. If I accidentally tried to use the wrong kind of value somewhere, TypeScript would catch the problem before I even ran the code.
 
-Some things are just difficult - building applications that humans use is hard, and will probably be hard for at least the near future.
+I also became more comfortable working with classes and objects during this module. The Jamba Juice assignments were really helpful because each assignment built on the previous one. I started with menu items and eventually had to make classes for drinks, orders, inventory, and stores. Instead of everything being one large piece of code, each class had its own responsibility for the different assignments. Seeing those pieces connect helped me understand why object-oriented programming can be useful.
 
-## In the context of engineering
+## TypeScript and Software Engineering
 
-Ever hear people ragging on engineering companies for delivering late and way over budget? Well, some engineering jobs are really difficult, especially if the requirements and funding are undulating underneath you. Because of the nature of the problem, sometimes engineering firms require large amounts of engineers and workers, inviting further problems and delays.
+From a software engineering perspective, I believe that TypeScript is a really good programming language because TypeScript adds more rules during coding, but those rules can make a program easier to understand and maintain.
 
-The Honolulu Rail project at home has become this sort of poster child of failure, budget overrun and overall incompetence in Hawaii. Well, working though regulatory boards and fiscal procedures in Hawaii seems like it's a mind bogglingly difficult job to do. Granted, there might be some fishy stuff going on, but I refuse to believe that everyone is involved for nefarious reasons.
+Like this one thing I started noticing during the Jamba Juice assignments was how useful types become as programs get larger. If I have a method like:
 
-The problem of creating an unprecedented public transportation backbone on an island is difficult! I'm not sure we would have done it right, even if the best people were involved.
+orderDrink(drink: Drink): void
 
-## In the context of relationships
+I immediately know what the method expects. So I don't have to guess what kind of information should be passed into it. This might not seem like that important when working on a smaller assignment like the first assignments, but I can see how it becomes much more useful when working on a larger project with other people.
 
-So in the end, we realize that all engineering and programming is there for a reason - to serve human needs. Maybe that's why those things are difficult, because they both involve humans and are for humans.
+TypeScript has made me realize that writing code is not just about getting the program to work, but building those good habits that make my code cleaner, more organized, and easier to understand in the future.
 
-Relationships, regardless if they're romantic or not take work. Humans are fickle creatures and relationships can come and go with the wind. To properly maintain something over time requires work. Family takes work. Marriage takes work. We live to figure out what works and what doesn't and hope that as we move forward we're improving.
+## Athletic Software Engineering
 
-Relationships have always been difficult, and by nature will continue to be so.
+The athletic software engineering approach has probably been one of the more interesting parts of this module. The practice WODs can definitely be stressful because there is a timer running while I am trying to solve a problem. Normally, if I get stuck while programming, I can stop for a while and think about the problem. During a WOD, I have to figure things out while also being aware of how much time I have left.
 
-## Okay!
+At the same time, I think that pressure has been useful. Repeating similar problems has made certain parts of programming feel more natural. Instead of spending a long time trying to remember basic syntax, I am starting to recognize what I need to do much faster.
 
-So back to the original premise; why is being one of the club officers so difficult?
+I have already noticed this in my WOD times. On some assignments, I have been able to finish under my estimated time, while on others I have gone over. Even when I go over, I can usually identify what slowed me down. That gives me something specific to improve before attempting another problem.
 
-And the final answer - it's supposed to be difficult, and it's supposed to challenge you, just like everything else that humans do that is difficult: programming, engineering, engaging in relationships, pondering the universe, etc.
+## Putting the Pieces Together
 
-Ultimately the question you should really ask yourself if something if particularly difficult is then "is it worth it"? That is something that is context specific and only you can answer yourself.
+One of my favorite parts of this module was reaching the point where the different concepts started connecting. During Jamba Juice 3, for example, I felt like the pieces from the previous assignments were finally coming together. I was not just creating individual classes anymore. I was using classes that interacted with each other to represent a larger system.
+
+That feeling has also changed how I view the timed WODs. At first, the goal can feel like simply trying to finish before the timer runs out. Now I think the more important goal is becoming comfortable enough with the concepts that I do not have to stop and think about every small part of the code.
+
+## Moving Forward
+
+So far, I have enjoyed learning TypeScript. Switching from JavaScript was a little challenging because I had already become comfortable with JavaScript, but once I got the hang of TypeScript, I felt much more confident using it. I especially like that TypeScript forces me to be more intentional about the data in my programs.
+
+The athletic software engineering approach can be stressful, but I think it will work for me. The practice WODs give me a way to see whether I am actually getting faster and more comfortable with programming instead of only understanding something when I see it in an example. I still have plenty to improve on, but I can already see progress.
+
+Ultimately, that has been my biggest takeaway from this module. Getting comfortable with a programming language does not mean that everything suddenly becomes easy. It means that the basic pieces become natural enough that I can spend more of my time thinking about the actual problem I am trying to solve.
