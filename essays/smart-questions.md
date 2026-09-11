@@ -9,6 +9,8 @@ labels:
   - Questions
   - Answers
   - StackOverflow
+  - Smart Question
+  - Good vs. Bad
 ---
 
 <img width="500px" class="rounded float-start pe-4" src="../img/badQuestion.png">
@@ -37,7 +39,7 @@ This follows Raymond’s guidelines because it shows that the developer had alre
 The responses show why asking a smart question can lead to better help. One answer explained that the httpRequest function was using a generic type, but TypeScript did not have enough information to determine what that type should be. Because of this, the returned value became unknown. The answer showed that the developer could specify the type when calling the function, such as httpRequest<TeamType[]>(). The response did more than just provide working code because it explained why the problem was happening.
 
 Answer to the Question:
-<img width="500px" class="rounded float-start pe-4" src="../img/goodAnswer.png">
+<img width="350px" class="rounded float-start pe-4" src="../img/goodAnswer.png">
 
 The developer received an answer and confirmed that the solution helped them understand the problem. I think this is a good example of what Raymond means by asking questions the smart way. Since the question was clear, concise, and included the necessary information, the people answering focused on solving and explaining the actual problem instead of trying to figure out what the developer was trying to ask.
 
@@ -48,20 +50,24 @@ A not-so-smart question I found on Stack Overflow was [“ReactQuery + Typescrip
 Poorly Written Question:
 <img width="500px" class="rounded float-start pe-4" src="../img/badQuestion2.png">
 
-This goes against many of Raymond’s recommendations because the developer did not make it easy for other people to understand the problem. Although some information and code were provided, there was not enough explanation to show that they had researched the issue or attempted different solutions before asking for help. Someone trying to answer the question had to figure out what the developer was trying to accomplish instead of being able to focus directly on the problem.
+This example doesn't follow any of the rules of Raymond’s recommendations because the developer didn't make it easy for others viewing the problem to understand it. Although some of the code was provided, there was no explanation to show that they even tried to research the issue or tried different solutions before asking for help. Someone trying to answer this question had to figure out everything the developer was trying to fix instead of being able to focus directly on the problem. Also, the pictures of the code only tell one story. If there is no explanation of the code, how are they supposed to give you what you're looking for? That's exactly what this developer did.
 
-The responses also show how asking a question this way can make getting help less effective. Someone was still able to provide a possible solution, but they had to make assumptions about what the developer was trying to do. This could have been avoided if the developer had included the exact problem, what they expected to happen, and what they had already tried. Overall, this question shows how providing too little information can make it harder for other developers to give quick and useful answers.
+The responses to this problem also show how asking a question this way can make getting help not effective at all. Someone was still able to provide a solution, but they had to make assumptions about what the developer was trying to do. This could have been avoided if the developer had included the exact problem, what they expected to happen, and what they had already tried.
 
 ## My Takeaways
 
-Comparing these two types of questions helped me understand that asking a programming question is a skill on its own. Before asking someone for help, I should first research the problem and try different solutions myself. Even if I cannot figure it out, doing that research gives me more information that I can include when I eventually ask my question.
+Comparing these two good and bad types of questions helped me understand that asking a smart question is a skill that people should learn. Before asking someone for help, I should ensure I first research the problem and try different solutions myself. Even if I cannot figure it out, doing that research and taking notes on it gives me more information/explanation that I can include when I post or ask my question.
 
-I also learned that simply saying “my code doesn't work” is not enough. If I want someone to help me, I should make their job as easy as possible. Including my code, the exact error, what I expected to happen, what actually happened, and what I have already tried gives someone a much better starting point.
+I also learned that simply saying “my code doesn’t work” or “hello why i have typescript error?” is not enough for someone to fully help me. I should make their job as easy as possible, to the point where all they have to do is read and look at the code for a little bit to understand what is needed. This includes adding my exact code, the exact error, what I want to happen, what I got, and what I have already tried, which helps give someone a much better starting point when viewing the problem.
 
-The TypeScript question especially showed me that a smart question does not only help someone find a solution. It can also help them understand why the solution works. The developer had already found a way around their error by using as TeamType[], but they still asked why it was necessary. Because of that, they learned more about TypeScript generics instead of simply copying a solution and moving on.
+The good TypeScript question also showed me that a smart question doesn't just help someone find the solution. It can also better help them understand why the solution works. The developer had already found a way to fix their error by using TeamType[], but they still wanted to know the why behind it. Which lead to them understanding and learning more about TypeScript generics instead of simply copying a solution and moving on.
 
 ## Conclusion
 
-Overall, this experience showed me that communication is just as important in software engineering as knowing how to write code. There will always be problems that I cannot immediately solve on my own, so knowing how to ask for help is something that I will continue to need throughout my career. Asking a smart question means respecting the time of the people helping me while also giving myself the best chance of receiving a useful answer.
+In conclusion, this lesson showed me that communication is a key component in software engineering as knowing how to write code. There will always be problems that I will not be able to solve on my own, so knowing how to ask questions and conveying the question you want answered is something that I will need throughout my coding career. Also, asking a smart question means respecting the time of the person or people helping me while also giving myself the best chance of receiving a complete answer.
 
-Moving forward, I want to make sure that I research my problem first, explain exactly what I am struggling with, and include only the information that is necessary to understand the problem. I may not always ask the perfect question, but following Raymond’s guidelines can help me ask questions that lead to faster, clearer, and more useful answers.
+Throughout this semester, I want to ensure that I research the problem that I'm stuck on first, explain exactly what I am having trouble with, and include the necessary information needed to understand the problem I'm asking.
+
+## AI Use
+
+Used Grammarly to check my spelling, format, and grammar to ensure I write a cohesive and easy-to-read essay. Also, I used ChatGPT to ensure that my paragraphs were formatted correctly.
