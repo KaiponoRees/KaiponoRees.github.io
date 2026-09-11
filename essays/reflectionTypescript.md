@@ -50,7 +50,7 @@ The athletic software engineering approach has probably been a very interesting 
 I think that pressure has been useful for me to really get in the zone and get the assignment done before my estimated time. Doing similar problems has made certain parts of programming feel more natural. Instead of spending a long time trying to remember basic syntax, I am starting to recognize what I need to do much faster after every assignment. For example, in each Jamba Juice assignment, I had to make sure to create a class, establish my variables, and then make a constructor to take those variables.
 
 Example:
-<img class="img-fluid" src="../img/reflectionTypescript/reflectionTypescript.png">
+![TypeScript assignment example](/img/reflectionTypescript.png)
 
 I have already noticed this in my WOD times. On some assignments, I have been able to finish under my estimated time. Even when I go under, I can usually identify what slowed me down. That gives me something specific to improve before attempting another problem.
 
