@@ -9,7 +9,7 @@ labels:
   - Engineering
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/difficulty/degree_difficulty.jpg">
+<img width="500px" class="rounded float-start pe-4" src="../img/typeScriptpic.png" alt="TypeScript assignment">
 
 *Getting comfortable with TypeScript*
 
@@ -54,16 +54,18 @@ Example:
 
 I have already noticed this in my WOD times. On some assignments, I have been able to finish under my estimated time. Even when I go under, I can usually identify what slowed me down. That gives me something specific to improve before attempting another problem.
 
-## Putting the Pieces Together
+## Learning Through Practice
 
-One of my favorite parts of this module was reaching the point where the different concepts started connecting. During Jamba Juice 3, for example, I felt like the pieces from the previous assignments were finally coming together. I was not just creating individual classes anymore. I was using classes that interacted with each other to represent a larger system.
+I think this style of learning has been a mix of stressful and enjoyable because the timed WODs put more pressure on me to solve problems quickly, but they also helped me to become more comfortable with my coding. At first, I was mainly focused on finishing before the time ran out, which added that level of stress. 
 
-That feeling has also changed how I view the timed WODs. At first, the goal can feel like simply trying to finish before the timer runs out. Now I think the more important goal is becoming comfortable enough with the concepts that I do not have to stop and think about every small part of the code.
+But as I got more practice, I started to enjoy seeing myself pick up things and finish problems faster. I also believe that this style of learning worked well for me because the multiple repetitions helped me build my confidence, thus making the concepts come more naturally when doing assignments and quizzes.
 
 ## Moving Forward
 
-So far, I have enjoyed learning TypeScript. Switching from JavaScript was a little challenging because I had already become comfortable with JavaScript, but once I got the hang of TypeScript, I felt much more confident using it. I especially like that TypeScript forces me to be more intentional about the data in my programs.
+I have really liked learning TypeScript. The switch from JavaScript was challenging at first because I was comfortable with JavaScript, but once I got the hang of TypeScript, I felt increasingly confident when coding it. I especially like that TypeScript forces me to care about the details of the data in my programs.
 
-The athletic software engineering approach can be stressful, but I think it will work for me. The practice WODs give me a way to see whether I am actually getting faster and more comfortable with programming instead of only understanding something when I see it in an example. I still have plenty to improve on, but I can already see progress.
+In conclusion, my biggest takeaway from this module was that getting comfortable with a programming language does not mean that everything will be easy when you first start. It takes time, practice, and repetition to understand how everything comes together. TypeScript was challenging, but as I continued practicing, the concepts started to become more natural and comfortable.
 
-Ultimately, that has been my biggest takeaway from this module. Getting comfortable with a programming language does not mean that everything suddenly becomes easy. It means that the basic pieces become natural enough that I can spend more of my time thinking about the actual problem I am trying to solve.
+## AI Use
+
+Used Grammarly to check over my spelling, format, and grammar to ensure I write a cohesive a easy to read essay. 
