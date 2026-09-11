@@ -12,8 +12,8 @@ labels:
   - Intrest
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/det175.png">
-<img width="200px" class="rounded float-start pe-4" src="../img/ics314.png">
+<img width="400px" class="rounded float-start pe-4" src="../img/det175.png">
+<img width="400px" class="rounded float-start pe-4" src="../img/ics314.png">
 
 Throughout my college career, two of my biggest interests have been Computer Science and being a pilot in the Air Force. At first, I viewed these as two separate parts of my life, with Computer Science being what I study academically and piloting being the career I hope to pursue in the Air Force. However, as I have gained more experience in both ICS and AFROTC, I have started to realize how much the two can connect with each other.
 
