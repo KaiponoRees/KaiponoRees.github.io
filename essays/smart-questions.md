@@ -19,9 +19,9 @@ When learning how to program or during programming, getting stuck on a problem i
 
 ## What Makes a Question Smart?
 
-[StackOverflow](https://stackoverflow.com/questions) is a useful resource for programmers because developers can ask questions and receive help from other people in the programming community. However, the people answering these questions are not obligated to help. Because of this, Eric Raymond explains that we should respect their time by researching the problem first and clearly explaining what we need help with.
+[StackOverflow](https://stackoverflow.com/questions) is a useful resource for programmers like myself because developers can ask questions and receive help from others in the programming community. The only problem with this is that the people answering these questions do not need to help. Thus, Eric Raymond explains that we should respect their time by researching the problem first and clearly explaining the problem you need help with.
 
-A good question should explain what you are trying to accomplish, provide the relevant code, show the error or unexpected result, and explain what you have already tried. It should also be specific enough that someone does not have to guess what the problem is. One Stack Overflow question I found demonstrates these ideas well.
+A good question should explain what you are trying to accomplish, the relevant code behind it, show the error, errors, or unexpected result, and explain what you did to try and fix it. This should be specific enough that someone does not have to guess what the problem is.
 
 ## A Question Asked the Smart Way
 
@@ -34,9 +34,10 @@ What made this a smart question was that the developer did not simply say, “My
 
 This follows Raymond’s guidelines because it shows that the developer had already put effort into solving and understanding the problem. The question also gave other developers enough information to figure out what was happening without having to ask a bunch of follow-up questions.
 
+The responses show why asking a smart question can lead to better help. One answer explained that the httpRequest function was using a generic type, but TypeScript did not have enough information to determine what that type should be. Because of this, the returned value became unknown. The answer showed that the developer could specify the type when calling the function, such as httpRequest<TeamType[]>(). The response did more than just provide working code because it explained why the problem was happening.
 
+Answer to the Question:
 
-While the heading of his question could be better, it does convey what he’s trying to figure out. Usually something as brief as “python date of previous month” is what other users would enter in as search terms on Google, making it easily found. Another good thing about the question is that it’s not just a question. The asker shows what he or she has done and that he or she has put in some effort to answer the question. And while it may not be as important as the question itself, the asker shows courtesy, which does increase the chance of getting an answer.
 
 ```
 A: datetime and the datetime.timedelta classes are your friend.
