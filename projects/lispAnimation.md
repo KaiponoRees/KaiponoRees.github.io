@@ -10,7 +10,6 @@ labels:
   - Aquamacs
   - Programming
   - Animation
-  - Interactive
 summary: "An interactive 2D graphics project using Common Lisp and OpenGL to create colorful shape patterns, scenes, and animations.""
 ---
 ## My Thoughts on the Assignment
