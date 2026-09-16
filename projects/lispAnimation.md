@@ -27,7 +27,7 @@ I created a large pattern using 35 rows of small squares on a baby blue backgrou
 
 One of the biggest challenges was getting the animation to work correctly. At first, I had the shapes created correctly, but I had to figure out how to make the update-fn run while the OpenGL window was running. I also had to experiment with the rotation and randomization values because larger values caused the squares to move and distort too quickly.
 
-<video width="1000" controls>
+<video width="750" controls>
   <source src="../videos/lispAnimation.mp4" type="video/mp4">
   Your browser does not support the video.
 </video>
