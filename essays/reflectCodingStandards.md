@@ -13,25 +13,17 @@ labels:
 
 <img width="500px" class="rounded float-start pe-4" src="../img/typeScriptpic.png" alt="TypeScript assignment">
 
-*Getting comfortable with TypeScript*
+## Coding Standards ESLint and VSCode
 
-First, we have to define what comfort is, which is a state where something begins to feel easier and more natural over time.
+When people hear the phrase “coding standards,” they may only think about small formatting rules, such as how many spaces to use for indentation, where to place curly braces, or whether to use single or double quotation marks. These details can sometimes feel unimportant because they do not change what a program does. However, after working with ESLint and TypeScript, I realized that coding standards involve much more than making code look clean. They can improve readability, identify mistakes, and teach programmers how to use a programming language more effectively.
 
-When I first started this class and module, TypeScript felt pretty comfortable to me because of how similar it is to JavaScript. I already had experience working with JavaScript, so a lot of the different sentence structures and ideas were sort of familiar. But at the same time, this familiarity was also one of my biggest challenges. When you get comfortable writing your code a certain way, switching to something slightly different made it harder than I expected when I first started doing assignments. I would sometimes fall back into the coding habits I had with JavaScript instead of the different coding way that TypeScript needed me to do to work.
+## My First Thoughts/Experience with ESLint
 
-As I continued through the module, TypeScript started to make a lot more sense. The differences that made it annoying or confusing at first started to become easier for me to start getting into the flow of how I coded with JavaScript.
+My first week using ESLint with Visual Studio Code was both frustrating and useful. One of the first problems I experienced was that the terminal reported 32 errors, while the VS Code editor only displayed six. This made the assignment more confusing because I expected every error from the terminal to appear as a red underline in the editor.
 
-## Getting Used to TypeScript
+I also ran into configuration problems involving the Airbnb style guide and the ESLint extension. Before I could work on fixing the actual code, I had to understand why the command-line tool and the editor were behaving differently. This showed me that development tools can be helpful, but they must be installed and configured correctly before they can provide their full benefits.
 
-The biggest difference I noticed with TypeScript was having to think more about the type of data I was going to be working with. In JavaScript, I could just create a variable and not have to worry too much about what type it was. But TypeScript makes me have to think twice and be more specific when putting a type on different variables. For example, throughout the Jamba Juice assignments, I created properties such as:
-
-name: string;
-ingredients: string[];
-price: number;
-
-At first, making sure to specify these types felt like another extra step that I had to remember when using different types. However, once I got more comfortable with it, I started to see the benefit of having types because they helped me catch mistakes earlier and made my code easier to understand and organize. If I accidentally tried to use the wrong kind of value somewhere, TypeScript would catch the problem before I even ran the code.
-
-I also became more comfortable working with classes and objects during this module. The Jamba Juice assignments were really helpful because each assignment built on the previous one. I started with menu items and eventually had to make classes for drinks, orders, inventory, and stores. Instead of everything being one large piece of code, each class had its own responsibility for the different assignments. Seeing those pieces connect helped me understand why object-oriented programming can be useful.
+Once ESLint started working correctly, I was finally able to see all of the errors and begin fixing them. Having 32 errors in such a small file seemed overwhelming at first, but many of them were related to the same types of problems.
 
 ## TypeScript and Software Engineering
 
