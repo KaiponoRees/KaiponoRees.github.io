@@ -70,6 +70,8 @@ I agree that coding standards can help someone learn a programming language. ESL
 
 Each error can become a small lesson about the language. Instead of allowing me to continue using bad habits, ESLint forces me to slow down, examine my code, and understand why a different approach might be better. This can be frustrating while completing an assignment, but it can also help build better programming habits over time.
 
+<img width="1000px" class="rounded float-start pe-4" src="../img/esLintPic.png">
+
 ## My Thoughts
 
 In conclusion, my first experience with ESLint has been both painful and useful. The configuration issues and the number of errors were frustrating, especially when the terminal and VS Code editor did not actually show what was going on. But getting into the habit of correcting the errors helped me produce cleaner and better-formatted TypeScript code.
