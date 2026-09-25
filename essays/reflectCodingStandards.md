@@ -4,20 +4,22 @@ type: essay
 title: "Reflect on Coding Standards"
 # All dates must be YYYY-MM-DD format!
 date: 2026-09-24
-published: false
+published: true
 labels:
   - Engineering
   - TypeScript
   - Software Engineering
 ---
 
-<img width="500px" class="rounded float-start pe-4" src="../img/typeScriptpic.png" alt="TypeScript assignment">
+<img width="500px" class="rounded float-start pe-4" src="../img/esLintPic2.png">
 
 ## Coding Standards ESLint and VSCode
 
 When people hear the phrase “coding standards,” they may only think about small formatting rules, such as how many spaces to use for indentation, where to place curly braces, or whether to use single or double quotation marks. These details can sometimes feel unimportant because they do not change what a program does. However, after working with ESLint and TypeScript, I realized that coding standards involve much more than making code look clean. They can improve readability, identify mistakes, and teach programmers how to use a programming language more effectively.
 
 ## My First Thoughts/Experience with ESLint
+
+<img width="500px" class="rounded float-start pe-4" src="../img/esLintPic.png">
 
 My first week using ESLint with Visual Studio Code was both frustrating and useful. One of the first problems I experienced was that the terminal reported 32 errors, while the VS Code editor only displayed six. This made the assignment more confusing because I expected every error from the terminal to appear as a red underline in the editor.
 
