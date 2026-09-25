@@ -27,40 +27,45 @@ I also ran into configuration problems involving the Airbnb style guide and the 
 
 Once ESLint started working correctly, I was finally able to see all of the errors and begin fixing them. Having 32 errors in such a small file seemed overwhelming at first, but many of them were related to the same types of problems.
 
-## TypeScript and Software Engineering
+## Formatting is Just Apart of It
 
-From a software engineering perspective, I believe that TypeScript is a really good programming language because TypeScript adds more rules during coding, but those rules can make a program easier to understand and maintain.
+Some of the ESLint errors initially seemed overly strict. It identified missing spaces, unnecessary semicolons, inconsistent formatting, and a missing newline at the end of the file. Fixing these errors sometimes felt tedious because the program could still run without many of those changes.
 
-Like this one thing I started noticing during the Jamba Juice assignments was how useful types become as programs get larger. If I have a method like:
+It was tempting to think that if the code worked, then small formatting details should not matter. However, code is not written only for the computer. It is also written for other programmers and for the original programmer who may return to it several months later. Consistent formatting makes it easier to understand the structure of a program without wasting time trying to interpret another programmer’s personal coding style.
 
-orderDrink(drink: Drink): void
+When everyone follows the same standards, code becomes much easier to read. A programmer can focus on understanding what the code does instead of being distracted by inconsistent spacing, indentation, or naming.
 
-I immediately know what the method expects. So I don't have to guess what kind of information should be passed into it. This might not seem like that important when working on a smaller assignment like the first assignments, but I can see how it becomes much more useful when working on a larger project with other people.
+## Troubleshooting Before Running the Code
 
-TypeScript has made me realize that writing code is not just about getting the program to work, but building those good habits that make my code cleaner, more organized, and easier to understand in the future.
+ESLint also found problems that were more serious than formatting. For example, it warned me about reassigning a function parameter, using an unsafe any value, failing to return a value on every possible path, and using == instead of ===.
 
-## Athletic Software Engineering
+These rules can prevent bugs rather than simply changing the appearance of the code. A missing space will probably not break a program, but an unexpected any value or inconsistent return behavior can create problems that are difficult to diagnose later.
 
-The athletic software engineering approach has probably been a very interesting part of this module. The practice WODs can definitely be stressful because there is a timer running while I am trying to solve a problem, and trying to make sure to finish under the time that I estimated can be hard. Usually, if I get stuck while programming, I can stop for a while and think about the problem. But during a WOD, I have to figure things out while also being aware of how much time I have left to finish the assignment.
+Because ESLint reports both formatting and programming issues, it acts as a combination of a style checker and an early warning system. It helps programmers find problems before the program is executed or submitted. Even though fixing all the errors can be annoying, it is better to find those problems early than to discover them later when the program becomes larger and more complicated.
 
-I think that pressure has been useful for me to really get in the zone and get the assignment done before my estimated time. Doing similar problems has made certain parts of programming feel more natural. Instead of spending a long time trying to remember basic syntax, I am starting to recognize what I need to do much faster after every assignment. For example, in each Jamba Juice assignment, I had to make sure to create a class, establish my variables, and then make a constructor to take those variables.
+## Learning Through Coding Standards
 
-Example:
-![TypeScript assignment example](/img/reflectionTypescriptpic.png)
+I agree that coding standards can help someone learn a programming language. ESLint does not only say that something is wrong. It normally provides the name of the rule that was violated. Looking up that rule can explain why one approach is safer or more commonly used than another.
 
-I have already noticed this in my WOD times. On some assignments, I have been able to finish under my estimated time. Even when I go under, I can usually identify what slowed me down. That gives me something specific to improve before attempting another problem.
+For example, being told to use const instead of let teaches the programmer to avoid unnecessary reassignment. Being told to use === instead of == introduces the issue of JavaScript’s automatic type conversion. TypeScript-related ESLint rules also encourage programmers to use proper types instead of depending on any.
 
-## Learning Through Practice
+Each error can become a small lesson about the language. Instead of allowing me to continue using bad habits, ESLint forces me to slow down, examine my code, and understand why a different approach might be better. This can be frustrating while completing an assignment, but it can also help build better programming habits over time.
 
-I think this style of learning has been a mix of stressful and enjoyable because the timed WODs put more pressure on me to solve problems quickly, but they also helped me to become more comfortable with my coding. At first, I was mainly focused on finishing before the time ran out, which added that level of stress. 
+## Finding A Balance
 
-But as I got more practice, I started to enjoy seeing myself pick up things and finish problems faster. I also believe that this style of learning worked well for me because the multiple repetitions helped me build my confidence, thus making the concepts come more naturally when doing assignments and quizzes.
+Coding standards should support developers instead of controlling every decision they make. A rule that makes sense for one project may not make sense for another. Teams should understand why their rules exist and adjust them when necessary.
 
-## Moving Forward
+Disabling a rule can be reasonable, but it should be an intentional decision rather than a way to avoid fixing code. If developers automatically turn off every rule that causes difficulty, they lose the benefits that ESLint provides. At the same time, having too many unnecessary rules can make developers focus more on satisfying the tool than improving the program.
 
-I have really liked learning TypeScript. The switch from JavaScript was challenging at first because I was comfortable with JavaScript, but once I got the hang of TypeScript, I felt increasingly confident when coding it. I especially like that TypeScript forces me to care about the details of the data in my programs.
+The most useful coding standards are the ones that make code safer, clearer, and easier to maintain.
 
-In conclusion, my biggest takeaway from this module was that getting comfortable with a programming language does not mean that everything will be easy when you first start. It takes time, practice, and repetition to understand how everything comes together. TypeScript was challenging, but as I continued practicing, the concepts started to become more natural and comfortable.
+## My Thoughts
+
+Overall, my first experience with ESLint has been both painful and useful. The configuration issues and large number of errors were frustrating, especially when the terminal and VS Code editor did not agree. However, correcting the errors helped me produce cleaner and safer TypeScript code.
+
+More importantly, this experience changed how I view coding standards. They are not merely rules about spaces and curly braces. When used properly, coding standards improve communication, prevent common mistakes, and help programmers develop better habits while learning a language.
+
+I may not enjoy seeing 32 ESLint errors appear in my terminal, but I now understand that those errors are trying to help me improve my code. Fixing them takes time, but each correction makes the program more consistent and teaches me something that I can use in future assignments.
 
 ## AI Use
 
