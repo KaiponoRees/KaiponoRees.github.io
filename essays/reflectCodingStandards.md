@@ -40,7 +40,7 @@ Although setting up the coding environment was frustrating, it helped me underst
 
 ## My First Thoughts/Experience with ESLint
 
-<img width="500px" class="rounded float-start pe-4" src="../img/esLintPic.png">
+<img width="1000px" class="rounded float-start pe-4" src="../img/esLintPic.png">
 
 My first week and a half using ESLint with Visual Studio Code was both frustrating and helpful. After finally getting my ESLint to start working with npm install, I ran npm run lint produced an error saying that ESLint could not find the Airbnb configuration. The message also showed that ESLint was reading a configuration file from my Desktop instead of the project folder.
 
