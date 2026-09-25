@@ -80,4 +80,4 @@ More importantly, this experience changed how I view coding standards. They are 
 
 ## AI Use
 
-Used Grammarly to check over my spelling, format, and grammar to ensure I write a cohesive and easy to read essay. 
+Used Grammarly to check my spelling, formatting, and grammar to ensure I write a cohesive and easy-to-read essay.
