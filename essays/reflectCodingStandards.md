@@ -14,7 +14,7 @@ labels:
   - VSCode
 ---
 
-<img width="250px" class="rounded float-start pe-4" src="../img/esLintPic2.png">
+<img width="450px" class="rounded float-start pe-4" src="../img/esLintPic2.png">
 
 ## Coding Standards: ESLint and VSCode
 
