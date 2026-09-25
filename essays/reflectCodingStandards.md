@@ -26,11 +26,11 @@ Before I could actually utilize ESLint errors in VS Code, I first had to ensure 
 
 The files included:
 
-sample.eslintrc.js, renamed to .eslintrc.js
-sample.eslintignore, renamed to .eslintignore
-sample.gitignore, renamed to .gitignore
-sample.package.json, renamed to package.json
-sample.tsconfig.json, renamed to tsconfig.json
+- `sample.eslintrc.js`, renamed to `.eslintrc.js`
+- `sample.eslintignore`, renamed to `.eslintignore`
+- `sample.gitignore`, renamed to `.gitignore`
+- `sample.package.json`, renamed to `package.json`
+- `sample.tsconfig.json`, renamed to `tsconfig.json`
 
 At first, downloading these files seemed like an easy part of the assignment because I thought I only needed to add them to my project before writing code. However, I became confused when I had to rename them because some of the new filenames started with a period. On my Mac, files beginning with a period are treated as hidden files, so they appeared to disappear after I moved them to my Desktop. This stumped me for a while because I did not know where the files had gone or how to add them to my BadTypescript project folder. Once I figured out how to locate the hidden files and move them into the correct folder, I was able to continue setting up the project. This experience was different from what I was used to in my other classes, but I eventually learned that each configuration file had a specific reason for adding and renaming them.
 
