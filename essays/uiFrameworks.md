@@ -27,23 +27,19 @@ My first experiences with Bootstrap involved rebuilding websites such as a brows
 
 When I converted the browser-history page to Bootstrap, I had to replace some of my custom layout classes with Bootstrap classes. To place the three browser descriptions into columns, I used Bootstrap’s grid system:
 
-<script>
-  
+
   <div class="row"> 
     <section class="col">Internet Explorer content</section> 
     <section class="col">Firefox content</section> 
     <sectionclass="col">Chrome content</section> 
   </div>
-  
-</script>
+
 
 The row class creates a horizontal row, while each col class creates an equal-width column inside it. The result only required a few classes, but understanding why they worked took time. 
 
 I also used Bootstrap’s float-start class to place each browser logo beside its description:
 
-<scrpit>
-  <img class="float-start" src="firefox-logo.png" alt="Firefox logo" width="100" >
-</script>
+  img class="float-start" src="firefox-logo.png" alt="Firefox logo" width="100" 
 
 ## My Future in the Air Force
 
