@@ -94,7 +94,7 @@ My experience with Bootstrap 5 was both frustrating and valuable. At first, the 
 
 ## Own Choice Assignment Submission
 
-<img width="2000px" class="rounded float-start pe-4" src="../img/ownchoice-HookedUpHawaii.png">
+<img width="1200px" class="rounded float-start pe-4" src="../img/ownchoice-HookedUpHawaii.png">
 
 ## AI Use
 I used Grammarly to review my spelling, formatting, grammar, and sentence structure to ensure that my essay was cohesive, organized, and easy to read. It also helped me identify spelling errors and improve the flow between my ideas while still having my own voice in my writing style.
