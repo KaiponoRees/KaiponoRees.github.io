@@ -43,6 +43,7 @@ I also used Bootstrap’s float-start class to place each browser logo beside it
   width="100"
 >
 ```
+<img width="500px" class="rounded mx-auto d-block" src="../img/browserHistoryBootstrap.png" alt="Browser history webpage made with Bootstrap">
 
 ## My Future in the Air Force
 
